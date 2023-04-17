@@ -250,6 +250,11 @@ p {
 }
 
 /*botones*/
+.contenedor {
+  display: flex;
+  flex-direction: column;
+}
+
 button {
   position: relative;
   background: #444;
@@ -262,7 +267,6 @@ button {
   padding: 1rem 3rem;
   transition: 0.2s;
   margin-bottom: 15px;
-  margin-left: 40px;
 }
 
 button:hover {
