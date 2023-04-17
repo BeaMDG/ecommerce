@@ -15,9 +15,10 @@ body {
 }
 
 h1 {
-  font-size: 3vmin;
+  font-size: 2vmin;
   text-align: center;
   color: #000000;
+  font-weight: 900;
 }
 
 p {
@@ -25,13 +26,14 @@ p {
   line-height: 1.4;
   color: #000000;
   margin-bottom: 1.5rem;
+  font-weight: 900;
 }
 
 .wrap {
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
-  width: 85vmin;
+  width: 90vmin;
   height: 25em;
   border: 8px solid;
   margin: 2rem auto;
@@ -79,10 +81,6 @@ p {
 }
 
 /*---------------*/
-p {
-  font-weight: 900;
-}
-
 .overlay {
   position: relative;
   display: flex;
@@ -117,28 +115,6 @@ p {
   background-size: cover;
   transition: 0.3s ease-in-out;
   /* border: 1px solid green; */
-}
-
-.dots {
-  position: absolute;
-  bottom: 1rem;
-  right: 2rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  width: 55px;
-  height: 4vmin;
-  transition: 0.3s ease-in-out 0.3s;
-}
-
-.dot {
-  width: 14px;
-  height: 14px;
-  background: yellow;
-  border: 1px solid indigo;
-  border-radius: 50%;
-  transition: 0.3s ease-in-out 0.3s;
 }
 
 .text {
@@ -271,4 +247,178 @@ p {
 
 .delay-8 {
   animation-delay: 2.4s;
+}
+
+/*botones*/
+button {
+  position: relative;
+  background: #444;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: none;
+  letter-spacing: 0.1rem;
+  font-size: 1rem;
+  padding: 1rem 3rem;
+  transition: 0.2s;
+  margin-bottom: 15px;
+  margin-left: 40px;
+}
+
+button:hover {
+  letter-spacing: 0.2rem;
+  padding: 1.1rem 3.1rem;
+  background: var(--clr);
+  color: var(--clr);
+  /* box-shadow: 0 0 35px var(--clr); */
+  animation: box 3s infinite;
+}
+
+button::before {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  background: #272822;
+}
+
+button span {
+  position: relative;
+  z-index: 1;
+}
+
+button i {
+  position: absolute;
+  inset: 0;
+  display: block;
+}
+
+button i::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 2px;
+  left: 80%;
+  top: -2px;
+  border: 2px solid var(--clr);
+  background: #272822;
+  transition: 0.2s;
+}
+
+button:hover i::before {
+  width: 15px;
+  left: 20%;
+  animation: move 3s infinite;
+}
+
+button i::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 2px;
+  left: 20%;
+  bottom: -2px;
+  border: 2px solid var(--clr);
+  background: #272822;
+  transition: 0.2s;
+}
+
+button:hover i::after {
+  width: 15px;
+  left: 80%;
+  animation: move 3s infinite;
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes box {
+  0% {
+    box-shadow: #27272c;
+  }
+  50% {
+    box-shadow: 0 0 25px var(--clr);
+  }
+  100% {
+    box-shadow: #27272c;
+  }
+}
+/*nav*/
+nav {
+  margin: 27px auto 0;
+  position: relative;
+  width: 400px;
+  height: 70px;
+  background-color: #34495e;
+  border-radius: 8px;
+  font-size: 0;
+}
+
+nav a {
+  font-size: 20px;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  color: rgb(5, 5, 5);
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+nav .animation {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  z-index: 0;
+  transition: all 0.5s ease 0s;
+  border-radius: 8px;
+}
+
+a:nth-child(1) {
+  width: 100px;
+}
+
+a:nth-child(2) {
+  width: 100px;
+}
+
+a:nth-child(3) {
+  width: 100px;
+}
+
+a:nth-child(4) {
+  width: 100px;
+}
+
+nav .start-home, a:nth-child(1):hover ~ .animation {
+  width: 110px;
+  left: 0;
+  background-color: #D4E6F1;
+}
+
+nav .start-about, a:nth-child(2):hover ~ .animation {
+  width: 100px;
+  left: 105px;
+  background-color: #A9DFBF;
+}
+
+nav .start-blog, a:nth-child(3):hover ~ .animation {
+  width: 100px;
+  left: 210px;
+  background-color: #CCFF00;
+}
+
+nav .start-portefolio, a:nth-child(4):hover ~ .animation {
+  width: 100px;
+  left: 310px;
+  background-color: #FF9933;
 }/*# sourceMappingURL=cards.css.map */
