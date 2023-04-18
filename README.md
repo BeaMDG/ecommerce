@@ -1,18 +1,34 @@
-# ecommerce
+## Senses
+# Somos SENSES, una empresa dedicada a crear experiencias únicas que te ayudaran a sentir numerosas sensaciones. 
+Usamos las ultimas tecnología diseñadas para ayudar, emocionar, sorprender, y para los mas valientes, jugar con tus picos de adrenalina hasta extremos inimaginables.
+¡Adéntrate en nuestro mundo!
+# Experiencia
+* RECREADOR DE CONVERSACIONES
+* TIME  TRAVEL
+* EXTREME GAMES
+* SCAPE ROOM: "SINISTER"
+* ¿?
+
 # equipo :
 * Liliana Garcia
 * Zoraida Manzanares
 * Bea Mendes
 * Johan Gonsales
 * Jadier Soledispa
+
 <div>
 <p style = 'text-align:center;'>
 <img src="https://user-images.githubusercontent.com/126781088/229580377-f7f50c57-8688-4a43-8dc7-6513f6f84e73.png" alt="JuveYell" width="300px">
 </p>
 </div>
 
-# HTML-CSS-JS
+# HTML-CSS-JS-SCSS
 Este proyecto es una página web donde podemos encontrar experiencias extremas para vivir emociones fuertes ect. Para crear una experiencia visual atractiva para los visitantes.
+
+## Cómo instalar y ejecutar la aplicación
+1. Clona este repositorio en tu máquina local: git clone https://github.com/BeaMDG/ecommerce.git
+2. Abre el archivo "index.html" en tu navegador web.
+3. ¡Disfruta de las experiencias!
 
 ## Características de la página
 La página presenta las siguientes características:
