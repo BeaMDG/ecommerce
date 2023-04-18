@@ -17,12 +17,12 @@ Usamos las ultimas tecnología diseñadas para ayudar, emocionar, sorprender, y 
 * Jadier Soledispa
 
 # HTML-CSS-JS-SCSS
-Este proyecto es una página web donde podemos encontrar experiencias extremas para vivir emociones fuertes ect. Para crear una experiencia visual atractiva para los visitantes.
 <div>
 <p style = 'text-align:center;'>
 <img src="https://user-images.githubusercontent.com/126781088/229580377-f7f50c57-8688-4a43-8dc7-6513f6f84e73.png" alt="JuveYell" width="300px">
 </p>
 </div>
+Este proyecto es una página web donde podemos encontrar experiencias extremas para vivir emociones fuertes ect. Para crear una experiencia visual atractiva para los visitantes.
 
 ## Cómo instalar y ejecutar la aplicación
 1. Clona este repositorio en tu máquina local: git clone https://github.com/BeaMDG/ecommerce.git
