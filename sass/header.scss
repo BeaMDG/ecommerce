@@ -11,7 +11,7 @@ nav {
 	font-size: 0;
 }
 nav a {
-	font-size: 30px;
+	font-size: 20px;
 	display: inline-block;
 	position: relative;
 	z-index: 1;
@@ -45,7 +45,7 @@ a:nth-child(4) {
 }
 
 nav .start-home, a:nth-child(1):hover~.animation {
-	width: 100px;
+	width: 110px;
 	left: 0;
 	background-color: #D4E6F1;
 }
