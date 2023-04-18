@@ -43,6 +43,7 @@ p {
 .cards{
     .uno{
         border-image: linear-gradient(-50deg, #D4E6F1, #b5cfde, #515c63, #b7dcf3, #55768a, #82b8d9, #D4E6F1) 1;
+		background-image: url("../img/experiencia1.jpg");
     }
     .uno-{
         background: #D4E6F1;
@@ -57,6 +58,7 @@ p {
 
     .tres{
         border-image: linear-gradient(-50deg, #EFF257, #edef69, #eef042, #b0b23f, #c0c253, #ccce3a, #edef99) 1;
+		background-image: url("../img/experiencia3.jpg");
     }
     .tres-{
         background: #EFF257;
@@ -112,10 +114,9 @@ p {
 	right: 0;
 	width: 60vmin;
 	height: 100%;
-	background-image: url("https://assets.codepen.io/4787486/trees.png");
 	background-size: cover;
 	transition: .3s ease-in-out;
-	/* border: 1px solid green; */
+
 }
 
 .text {
