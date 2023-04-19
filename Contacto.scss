@@ -39,8 +39,8 @@ textarea{
   
   .contact-form {
     background: #BBD2C5;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #536976, #BBD2C5);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #536976, #BBD2C5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, #536976, #BBD2C5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #536976, #BBD2C5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     position: relative;
 
@@ -103,7 +103,7 @@ background: linear-gradient(to right, #536976, #BBD2C5); /* W3C, IE 10+/ Edge, F
     border: 2px solid #fafafa;
     background: none;
     padding: 0.6rem 1.2rem;
-    color: #fff;
+    color: #c25353;
     font-weight: 500;
     font-size: 0.95rem;
     letter-spacing: 0.5px;
