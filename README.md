@@ -42,6 +42,10 @@ Para utilizar esta página, simplemente abre el archivo index.html en un navegad
 Las contribuciones son bienvenidas. Si deseas hacer una contribución a este proyecto, crea una rama (branch) y realiza tus cambios. Luego, envía una solicitud de extracción (pull request) y se revisará tu contribución.
 
 ## Links
-* https://www.canva.com/design/DAFf-cPxmQw/tgXIAVENFUCGpTW8yTp9kg/view?utm_content=DAFf-cPxmQw&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink Enlace par ver
-* https://www.figma.com/file/z3XpR4IGIlfRfMfAAg3fT3/Proyecto-e-commerce?node-id=0%3A1&t=xqwQpyRjc3cfzoPq-1
-* 
+Proyecto e-commerce
+* https://www.figma.com/file/z3XpR4IGIlfRfMfAAg3fT3/Proyecto-e-commerce?node-id=0%3A1&t=JwJK6my9bfyvkU3R-1
+
+sensee presentacion Enlace para ver
+* https://www.canva.com/design/DAFf-cPxmQw/-g3aphggu_N9hXgMwGOjWA/edit?utm_content=DAFf-cPxmQw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+trello de senses
+* https://trello.com/b/8EC28Wi3/grupo3-servicio
