@@ -46,6 +46,7 @@ Proyecto e-commerce
 * https://www.figma.com/file/z3XpR4IGIlfRfMfAAg3fT3/Proyecto-e-commerce?node-id=0%3A1&t=JwJK6my9bfyvkU3R-1
 
 sensee presentacion Enlace para ver
-* https://www.canva.com/design/DAFf-cPxmQw/-g3aphggu_N9hXgMwGOjWA/edit?utm_content=DAFf-cPxmQw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+* https://www.canva.com/design/DAFf-cPxmQw/-g3aphggu_N9hXgMwGOjWA/edit?utm_content=DAFf-cPxmQw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutto
+
 trello de senses
 * https://trello.com/b/8EC28Wi3/grupo3-servicio
