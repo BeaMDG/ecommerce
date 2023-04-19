@@ -1,4 +1,4 @@
-## Senses
+# SENSES
 # Somos SENSES, una empresa dedicada a crear experiencias únicas que te ayudaran a sentir numerosas sensaciones. 
 Usamos las ultimas tecnología diseñadas para ayudar, emocionar, sorprender, y para los mas valientes, jugar con tus picos de adrenalina hasta extremos inimaginables.
 ¡Adéntrate en nuestro mundo!
