@@ -16,7 +16,7 @@ Usamos las ultimas tecnología diseñadas para ayudar, emocionar, sorprender, y 
 * Johan Gonsales
 * Jadier Soledispa
 
-# HTML-CSS-JS-SCSS
+# HTML-CSS-JS-SaSS
 <div>
 <p style = 'text-align:center;'>
 <img src="https://user-images.githubusercontent.com/126781088/229580377-f7f50c57-8688-4a43-8dc7-6513f6f84e73.png" alt="JuveYell" width="300px">
