@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="Contacto.scss">
+    <link rel="stylesheet" href="Contacto.css">
+    <script
+        src="https://kit.fontawesome.com/64d58efce2.js"
+        crossorigin="anonymous">
+    </script>
+</head>
+<body>
+<!--Contacto	--------------->
+    <div class="container">
+      <div class="form">
+        <div class="contact-info">
+          <h3 class="title">
+            Let's get in touch</h3>
+          <p class="text">
+            Hola si tienes dudas y quieres informacion contactanos y te lo resolveremos sin 
+            problema...
+          </p>
+
+          <div class="info">
+            <div class="information">
+              <img src="img/bx-map.svg"  class="icon" alt="">
+              <p>Paseo de la castellana,35
+                Madrid, CP:28046
+                </p>
+            </div>
+            <div class="information">
+              <img src="img/bx-envelope.svg"  class="icon" alt="">
+              <p>2023.Sense.2023@gmail.com</p>
+            </div>
+            <div class="information">
+              <img src="img/bx-phone.svg"  class="icon" alt="">
+              <p>911-234-567</p>
+            </div>  
+          </div>
+          <div clas></div>
+        </div>
+
+         <div class="contact-form">
+          <span class="circle one"></span>
+          <span class="circle two"></span>
+
+          <form class="input-container" action="https://formspree.io/f/xlekoppw" method="POST">
+            <h3 class="title">Contacto</h3>
+            <div class="input-container">
+              <input type="text" name="name" class="input" placeholder="Username" required />
+              <label for=""></label>
+  
+          <div class="input-container">
+            <input type="email" name="email" class="input" placeholder="aaaaaaaaaa@gmail.com" required>
+            <label for=""></label>
+            <span>Correo</span>
+          </div>
+          <div class="input-container">
+            <input type="tel" name="phone" class="input" placeholder="+34647852463" required>
+            <label for=""></label>
+            <span>Telefono</span>
+          </div>
+          <div class="input-container textarea">
+           <textarea name="message" class="input" placeholder="mensage" required></textarea>
+            <label for=""></label>
+            <span>Mensage</span>
+          </div>
+          <input type="submit" value="send" class="btn">
+        </form>
+         </div>
+      </div>
+    </div>
+    <script scr="Contacto.js"></script>
+   <!--Menu	--------------->
+   <header class="header">
+    <div class="container1">
+    <div class="btn-menu">
+        <label for="btn-menu">☰</label>
+    </div>
+        <div class="logo">
+            <h1><img src="img/logo.png" width="150" height="80"></h1>
+        </div>
+    </div>
+</header>
+<div class="capa"></div>
+<!--	--------------->
+<input type="checkbox" id="btn-menu">
+<div class="container-menu">
+<div class="cont-menu">
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="carrito.html">¡Reserva ya!</a>
+        <a href="https://twitter.com/?lang=es">twitter</a>
+        <a href="https://es-es.facebook.com/">facebook</a>
+        <a href="https://www.instagram.com/">Instagram</a>
+    </nav>
+    <label for="btn-menu">✖️</label>
+</div>
+</div>  
+
+</body>
+</html>
