@@ -7,7 +7,7 @@ Usamos las ultimas tecnología diseñadas para ayudar, emocionar, sorprender, y 
 * TIME  TRAVEL
 * EXTREME GAMES
 * SCAPE ROOM: "SINISTER"
-* SPACE VIRTUAL EXPERIENCE 
+* MOON VIRTUAL EXPERIENCE 
 
 # equipo :
 * Liliana Garcia
